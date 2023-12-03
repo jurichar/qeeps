@@ -1,5 +1,6 @@
 import IntroComponent from './components/intro'
 import TabComponent from './components/tab'
+import arrowClassic from './assets/arrow_classic.svg';
 
 function App() {
 
@@ -9,8 +10,16 @@ function App() {
         <title>My first React app</title>
       </head>
       <body className='h-auto w-auto'>
-        <p>Mon dossier locataire</p>
-        <p></p>
+        <div className='flex justify-start items-center text-center gap-2 my-4'>
+          <p>Mon dossier locataire</p>
+          <div style={{
+            backgroundImage: `url(${arrowClassic})`,
+            backgroundSize: 'cover',
+            width: '0.875rem',
+            height: '0.875rem',
+          }}
+          ></div>
+        </div>
         <IntroComponent />
         <TabComponent />
       </body >

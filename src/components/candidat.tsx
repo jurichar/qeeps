@@ -11,7 +11,7 @@ function CandidatComponent() {
     return (
         <div>
             <h1>Candidat principal : Fabien Bricard</h1>
-            <div className="flex">
+            <div className="flex rounded-lg border border-grayGray-10 bg-subtleWhite p-4">
                 <div style={divStyle}></div>
                 <div>
                     <h2>Fabien Bricard</h2>

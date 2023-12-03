@@ -15,23 +15,23 @@ function TabComponent() {
             <TabPanels>
                 <TabPanel>
                     <h1>Mon dossier en un clin d’oeil</h1>
-                    <p>Retrouvez tous les indicateurs correspondants à l’ensemble des candidats.</p>
-                    <ul>
-                        <li>
+                    <p className='rounded-lg border border-grayGray-10 bg-subtleWhite p-4'>Retrouvez tous les indicateurs correspondants à l’ensemble des candidats.</p>
+                    <ul className='flex'>
+                        <li className='rounded-lg border border-grayGray-10 bg-subtleWhite p-4'>
                             <h3>
                                 4500€
                             </h3>
                             <p>NET MENSUEL</p>
                             <p>(avant impots)</p>
                         </li>
-                        <li>
+                        <li className='rounded-lg border border-grayGray-10 bg-subtleWhite p-4'>
                             <h3>
                                 CDI
                             </h3>
                             <p>PRISE DE FONCTION</p>
                             <p>le 17/03/2018</p>
                         </li>
-                        <li>
+                        <li className='rounded-lg border border-grayGray-10 bg-subtleWhite p-4'>
                             <h3>
                                 1750€
                             </h3>
