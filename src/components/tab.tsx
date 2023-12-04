@@ -15,7 +15,7 @@ function TabComponent() {
             <TabPanels>
                 <TabPanel>
                     <h1 style={{ fontSize: '1.25rem' }}>Mon dossier en un clin d’oeil</h1>
-                    <p className='rounded-lg border border-grayGray-10 bg-subtleWhite p-4' style={{ fontSize: '0.75rem', fontWeight: '400' }}>Retrouvez tous les indicateurs correspondants à l’ensemble des candidats.</p>
+                    <p className='rounded-lg border border-grayGray-10 bg-subtleWhite p-4 my-4 bg-blue-100' style={{ fontSize: '0.75rem', fontWeight: '400' }}>Retrouvez tous les indicateurs correspondants à l’ensemble des candidats.</p>
                     <ul className='flex justify-center items-center text-center gap-5'>
                         <li className='rounded-lg border border-grayGray-10 bg-subtleWhite p-4 w-full'>
                             <h3 style={{ fontSize: '1.25rem' }}>
@@ -41,7 +41,7 @@ function TabComponent() {
                     </ul>
                     <CandidatComponent />
                     <MyFileComponent />
-                    <h2 style={{ fontSize: '1.25rem' }} >Garant : Martine Bricard</h2>
+                    <h2 style={{ fontSize: '1.25rem' }} className='my-4' >Garant : Martine Bricard</h2>
                     <GarantComponent />
                 </TabPanel>
                 <TabPanel>

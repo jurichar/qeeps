@@ -3,7 +3,6 @@ import TabComponent from './components/tab'
 import arrowClassic from './assets/arrow_classic.svg';
 
 function App() {
-
   return (
     <html className='h-full w-full m-5 font-poppins text-lg font-medium leading-relaxed'>
       <head>

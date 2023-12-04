@@ -10,13 +10,13 @@ function CandidatComponent() {
 
     return (
         <div>
-            <h1 style={{ fontSize: '1.25rem' }}>Candidat principal : Fabien Bricard</h1>
-            <div className="flex rounded-lg border border-grayGray-10 bg-subtleWhite p-4">
+            <h1 className="my-5" style={{ fontSize: '1.25rem' }}>Candidat principal : Fabien Bricard</h1>
+            <div className="flex rounded-lg border border-grayGray-10 bg-subtleWhite p-4 gap-10">
                 <div style={divStyle}></div>
-                <div>
+                <div className=''>
                     <h2 style={{ fontSize: '1.125rem' }}>Fabien Bricard</h2>
                     <p style={{ fontSize: '0.75rem', fontWeight: '300' }}>@fabien.bricard</p>
-                    <div className="flex" style={{ fontSize: '0.75rem' }}>
+                    <div className="flex gap-1" style={{ fontSize: '0.75rem' }}>
                         <p className='rounded-lg border border-grayGray-10 bg-subtleWhite p-1'>
                             Product Designer
                         </p>
@@ -27,7 +27,7 @@ function CandidatComponent() {
                             Colocation
                         </p>
                     </div>
-                    <div className="flex">
+                    <div className="flex gap-1 my-1">
                         <p style={{ fontSize: '0.75rem' }} className='rounded-lg border border-grayGray-10 bg-subtleWhite p-1'>
                             Garant</p>
                         <p style={{ fontSize: '0.75rem' }} className='rounded-lg border border-grayGray-10 bg-subtleWhite p-1'>
